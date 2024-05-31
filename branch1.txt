@@ -1,3 +1,5 @@
 create branch 1
 
 merge branch into main
+
+write in nano
