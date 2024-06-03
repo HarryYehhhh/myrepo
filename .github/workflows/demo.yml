@@ -20,7 +20,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: clone repository
         run:
-          git clone https://github.com/HarryYehhhh/myrepo.git
+          git clone https://github.com/yehhungwei/myrepo.git
           cd myrepo
 
       # Runs a set of commands using the runners shell
