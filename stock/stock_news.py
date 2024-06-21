@@ -10,6 +10,7 @@ import mplfinance as mpf
 # qqq_daily = yf.download("QQQ", start="2024-01-01", end="2024-06-20")
 # qqq_daily["Adj Close"].plot(title="QQQ Daily Adjusted Close", figsize=(5, 3))
 # plt.show()
+
 data = yf.download(["AMD", "NVDA", "TSM"], start='2024-04-06', end='2024-06-20')
 print(data)
 data.to_csv('stock_compare.csv')
